@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+
+body{
+    background-color: rgb(184, 180, 179);
+    font-family: 'Sixtyfour', sans-serif;
+}
+h1 {
+    font-family:  'Honk', 'system-ui';
+    font-size: 50px;
+}
+h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+p1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+    border: 2px solid black;
+    padding: 25px;
+}
+
+main{
+    border: 2px solid black;
+    height: 59vh;
+    padding: 25px;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+    }
+
+    footer{
+    border: 2px solid black;
+    text-align: center;
+    font-weight: 700;
+
+}
+a{
+    padding-right: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
